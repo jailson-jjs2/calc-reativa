@@ -1,7 +1,7 @@
 <template>
 
   <header>
-    <h1>Calculadora Rativa</h1>
+    <h1>Calculadora Reativa</h1>
   </header>
 
 </template>

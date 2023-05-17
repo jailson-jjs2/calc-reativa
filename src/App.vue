@@ -12,14 +12,13 @@
 
   const resultado = () => {
     const {operation} = estado
-    switch(operation) {
-      case'-':
+    if (operation === '-') {
       return parseFloat(estado.num1) - parseFloat(estado.num2)
-      case'*':
+    } else if (operation === '*'){
       return parseFloat(estado.num1) * parseFloat(estado.num2)
-      case'/':
+    } else if (operation === '/'){
       return parseFloat(estado.num1) / parseFloat(estado.num2)
-      default:
+    } else {
       return parseFloat(estado.num1) + parseFloat(estado.num2)
     }
   }
@@ -48,9 +47,10 @@
   }
 
   .container {
+    font-family: 'Orbitron', sans-serif;
     margin: 0 auto;
     text-align: center;
-    background-color: gray;
+    background-color: rgb(158, 156, 156);
   }
 
 </style>

@@ -5,7 +5,7 @@
 <template>
 
   <span v-if="props.num1 && props.num2 !=''"> <h2>Resultado: {{ props.result }} </h2></span>
-  <span v-else-if="props.num1 || props.num2 ===''"><h2>Dogote os dois números</h2></span>
+  <span v-else-if="props.num1 || props.num2 ===''"><h2>Digite os dois números</h2></span>
 
 </template>
 
